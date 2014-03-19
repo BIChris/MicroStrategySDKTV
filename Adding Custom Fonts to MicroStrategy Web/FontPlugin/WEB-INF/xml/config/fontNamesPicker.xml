@@ -1,0 +1,8 @@
+<shortcut-list name="fontPicker">
+  <shortcut desc="allura-regular" feature-id="allura-regular" name="allura-regular">
+    <attributes>
+      <attribute name="style" value="font-family: allura-regular"/>
+	  <attribute name="value" value="allura-regular"/>
+    </attributes>
+  </shortcut>
+</shortcut-list>

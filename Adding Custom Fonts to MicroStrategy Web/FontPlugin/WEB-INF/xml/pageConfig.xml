@@ -1,0 +1,9 @@
+<framework>
+  <pages>
+    <page desc-id="" feature-id="" name="-1">
+      <templates>
+        <template file-name="@FontPlugin:/jsp/mstrWeb.jsp"/>
+      </templates>
+    </page>
+  </pages>
+</framework>
