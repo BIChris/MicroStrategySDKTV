@@ -1,0 +1,5 @@
+<visualizations>
+  <visualization-list name="ajax">
+    <visualization desc="DemoT3" scope="7" style-name="DemoT3"/>
+  </visualization-list>
+</visualizations>

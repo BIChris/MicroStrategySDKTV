@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE StyleCatalog SYSTEM "styleCatalog.dtd">
+<StyleCatalog version="2.0">
+  <TransformDefns>
+    <TransformDefn class="SDKTV.DemoAjaxVizT1" name="DemoAjaxVizT1"/>
+    <TransformDefn class="SDKTV.DemoAjaxVizT2" name="DemoAjaxVizT2"/>
+    <TransformDefn class="SDKTV.DemoAjaxVizT3" name="DemoAjaxVizT3"/>
+  </TransformDefns>
+  <Styles>
+    <Style description="" name="DemoT1" transform="DemoAjaxVizT1"/>
+    <Style description="" name="DemoT2" transform="DemoAjaxVizT2">
+      <ActualParameters>
+        <ActualParameter name="reportXMLStyle" value="DemoT1"/>
+      </ActualParameters>
+      <Layouts>
+        <Layout layout_source="AppLayoutSourceFile"><![CDATA[@DemoAjaxViz:/WEB-INF/xml/layouts/DemoLayout.xml]]></Layout>
+      </Layouts>
+    </Style>
+    <Style description="" name="DemoT3" transform="DemoAjaxVizT3">
+      <ActualParameters>
+        <ActualParameter name="styleName" value="DemoT2"/>
+      </ActualParameters>
+    </Style>
+  </Styles>
+</StyleCatalog>

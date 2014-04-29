@@ -1,0 +1,63 @@
+<!DOCTYPE mstrlayout:layout SYSTEM "mstrlayout.dtd">
+<mstrlayout:layout>
+<![CDATA[
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=drawing"></script>
+<script>
+]]>
+       <mstrlayout:render name="visualization"/>
+<![CDATA[
+
+function createHotel(l){
+      var cir = new google.maps.Marker({
+          position: l.position,
+          map: map,
+      });
+}
+
+
+function initialize() {
+  //map styles to remove poi
+    var myStyles =[
+    {
+        featureType: "poi",
+        elementType: "labels",
+        stylers: [
+              { visibility: "off" }
+            ]
+        }
+    ];
+
+    //map options
+    var mapOptions = {
+        disableDoubleClickZoom: true,
+        zoom: 4,
+        center: new google.maps.LatLng(37.09024, -95.712891),
+        mapTypeId: google.maps.MapTypeId.TERRAIN,
+        styles: myStyles 
+    };
+
+
+    map = new google.maps.Map(document.getElementById('map-canvas'),
+        mapOptions);
+
+
+    $(locations).each(function( index ) {
+        createHotel(this);
+    });
+}
+
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+</script>
+</head>
+<div id="map-canvas" style="width:900px; height:900px;"></div>
+</body>
+</html>
+]]>
+
+</mstrlayout:layout>
