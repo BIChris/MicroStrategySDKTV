@@ -13,7 +13,7 @@
         <ActualParameter name="reportXMLStyle" value="DemoT1"/>
       </ActualParameters>
       <Layouts>
-        <Layout layout_source="AppLayoutSourceFile"><![CDATA[@DemoAjaxViz:/WEB-INF/xml/layouts/DemoLayout.xml]]></Layout>
+        <Layout layout_source="AppLayoutSourceFile"><![CDATA[@DemoAjaxVizGoogleMaps:/WEB-INF/xml/layouts/DemoLayout.xml]]></Layout>
       </Layouts>
     </Style>
     <Style description="" name="DemoT3" transform="DemoAjaxVizT3">
