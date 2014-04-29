@@ -10,3 +10,4 @@ SDK TV Episodes
 3. MicroStrategy Portlet Authentication Part 2 CredentialMapper
 4. Building Custom MicroStrategy Ajax Visualizations
 5. Adding Custom Fonts to MicroStrategy Web
+6. Building Custom MicroStrategy Ajax Visualization Part 2 Google Maps
