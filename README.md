@@ -11,3 +11,7 @@ SDK TV Episodes
 4. Building Custom MicroStrategy Ajax Visualizations
 5. Adding Custom Fonts to MicroStrategy Web
 6. Building Custom MicroStrategy Ajax Visualization Part 2 Google Maps
+7. Adding Custom Font Sizes to MicroStrategy Web
+8. Adding Browser Specific CSS to MicroStrategy
+9. Exporting a document grid to excel in MicroStrategy
+10. Adding report plain text delimited to MicroStrategy Web
