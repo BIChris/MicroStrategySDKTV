@@ -1,0 +1,3 @@
+<export-plaintext-delimiters version="1.0">
+    <export-plaintext-delimiter desc="Hash" desc-id="NewDelimiter" key="5">#</export-plaintext-delimiter>
+</export-plaintext-delimiters>

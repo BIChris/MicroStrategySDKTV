@@ -1,0 +1,88 @@
+<shortcut-list base-bean="" desc="" desc-id="" enable-feature-id="" feature-id="" name="sizePicker" type="">
+  <shortcut name="pkr2pt" position="0"/>
+  <shortcut name="pkr3pt" position="1"/>
+  <shortcut name="pkr4pt" position="2"/>
+  <shortcut name="pkr5pt" position="3"/>
+  <shortcut name="pkr6pt" position="4"/>
+  <shortcut name="pkr7pt" position="5"/>
+  <shortcut name="pkr8pt" position="6"/>
+  <shortcut name="pkr9pt" position="7"/>
+  <shortcut name="pkr10pt" position="8"/>
+  <shortcut name="pkr11pt" position="9"/>
+  <shortcut name="pkr12pt" position="10"/>
+  <shortcut name="pkr14pt" position="11"/>
+  <shortcut name="pkr16pt" position="12"/>
+  <shortcut name="pkr18pt" position="13"/>
+  <shortcut name="pkr20pt" position="14"/>
+  <shortcut name="pkr22pt" position="15"/>
+  <shortcut name="pkr24pt" position="16"/>
+  <shortcut desc="28" desc-id="" name="pkr28pt" position="17">
+    <attributes>
+      <attribute name="id" source="const" value="pkr28pt"/>
+      <attribute name="value" source="const" value="28"/>
+    </attributes>
+  </shortcut>
+  <shortcut desc="32" desc-id="" name="pkr32pt" position="18">
+    <attributes>
+      <attribute name="id" source="const" value="pkr32pt"/>
+      <attribute name="value" source="const" value="32"/>
+    </attributes>
+  </shortcut>
+  <shortcut name="pkr36pt" position="19"/>
+  <shortcut desc="40" desc-id="" name="pkr40pt" position="20">
+    <attributes>
+      <attribute name="id" source="const" value="pkr40pt"/>
+      <attribute name="value" source="const" value="40"/>
+    </attributes>
+  </shortcut>
+  <shortcut desc="44" desc-id="" name="pkr44pt" position="21">
+    <attributes>
+      <attribute name="id" source="const" value="pkr44pt"/>
+      <attribute name="value" source="const" value="44"/>
+    </attributes>
+  </shortcut>
+  <shortcut name="pkr48pt" position="22"/>
+  <shortcut desc="52" desc-id="" name="pkr52pt" position="23">
+    <attributes>
+      <attribute name="id" source="const" value="pkr52pt"/>
+      <attribute name="value" source="const" value="52"/>
+    </attributes>
+  </shortcut>
+  <shortcut desc="56" desc-id="" name="pkr56pt" position="24">
+    <attributes>
+      <attribute name="id" source="const" value="pkr56pt"/>
+      <attribute name="value" source="const" value="56"/>
+    </attributes>
+  </shortcut>
+  <shortcut desc="60" desc-id="" name="pkr60pt" position="25">
+    <attributes>
+      <attribute name="id" source="const" value="pkr60pt"/>
+      <attribute name="value" source="const" value="60"/>
+    </attributes>
+  </shortcut>
+  <shortcut desc="64" desc-id="" name="pkr64pt" position="26">
+    <attributes>
+      <attribute name="id" source="const" value="pkr64pt"/>
+      <attribute name="value" source="const" value="64"/>
+    </attributes>
+  </shortcut>
+  <shortcut desc="68" desc-id="" name="pkr68pt" position="27">
+    <attributes>
+      <attribute name="id" source="const" value="pkr68pt"/>
+      <attribute name="value" source="const" value="68"/>
+    </attributes>
+  </shortcut>
+  <shortcut name="pkr72pt" position="28"/>
+  <shortcut desc="76" desc-id="" name="pkr76pt" position="29">
+    <attributes>
+      <attribute name="id" source="const" value="pkr76pt"/>
+      <attribute name="value" source="const" value="76"/>
+    </attributes>
+  </shortcut>
+  <shortcut desc="80" desc-id="" name="pkr80pt" position="30">
+    <attributes>
+      <attribute name="id" source="const" value="pkr80pt"/>
+      <attribute name="value" source="const" value="80"/>
+    </attributes>
+  </shortcut>
+</shortcut-list>

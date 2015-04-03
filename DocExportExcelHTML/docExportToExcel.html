@@ -1,0 +1,15 @@
+<body>
+<script>
+try {
+
+var baseUrl = './mstrWeb?&evt=3132&src=mstrWeb.3132&executionMode=4&gridKey=K44&name=1426015740000&mstrWeb=-.MicroStrategy+Tutorial.34955_&rwExportMode=4&rwb='
+var beanState = mstrmojo.App.docModel.bs;
+baseUrl = baseUrl + beanState;
+document.getElementById("exportLink").href = baseUrl;
+}
+catch(err) {
+document.getElementById("exportLink").href = "";
+}
+</script>
+<a target="_blank" id="exportLink" href="" ><img height="50" width="50" src=""/></a>
+</body>
