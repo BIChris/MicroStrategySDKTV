@@ -1,0 +1,28 @@
+<!DOCTYPE mstrlayout:layout SYSTEM "mstrlayout.dtd">
+<mstrlayout:layout>
+<![CDATA[
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../plugins/ProjectsGrouping/javascript/customWelcome.js"></script>
+]]>
+<mstrlayout:if name="areThereProjectsToDisplay">
+    	<mstrlayout:then>
+            <table class="mstrLargeIconView" border="0" cellpadding="0" cellspacing="0">
+                <col class="mstrLargeIconViewCell" />
+                <col class="mstrLargeIconViewCell" />
+                      <mstrlayout:render name="projectGroups"/>
+				      <mstrlayout:render name="projectJson"/>
+            </table>
+            <mstrlayout:render name="messagesSection"/>
+        </mstrlayout:then>
+        <mstrlayout:else>
+    		<mstrlayout:if name="areThereMessagesToDisplay">
+    			<mstrlayout:then>
+            		<mstrlayout:render name="messagesSection"/>
+                </mstrlayout:then>
+                <mstrlayout:else>
+            		<mstrlayout:render name="emptyProjectList"/>
+                </mstrlayout:else>
+    		</mstrlayout:if>
+        </mstrlayout:else>
+    </mstrlayout:if>
+</mstrlayout:layout>

@@ -1,0 +1,35 @@
+.custProj.hidden {
+	display: none;
+}
+
+img.hidden {
+	display: none;
+}
+.projIcon {
+	float: left;
+}
+.custProj {
+	position: relative;
+}
+
+.container {
+	position: relative;
+}
+
+.mstrserver {
+	padding-top: 5px;
+}
+
+.mstrProjectDescription {
+	padding-top: 5px;
+}
+
+.mstrserver label {
+	font-weight: bold;
+}
+.projIcon {
+	padding-right: 10px;
+}
+.mstrLargeIconViewItemName {
+	margin-top: 8px;
+}
