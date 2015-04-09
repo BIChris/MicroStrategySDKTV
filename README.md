@@ -15,3 +15,4 @@ SDK TV Episodes
 8. Adding Browser Specific CSS to MicroStrategy
 9. Exporting a document grid to excel in MicroStrategy
 10. Adding report plain text delimited to MicroStrategy Web
+11. Customizing the projects page to add custom project grouping
